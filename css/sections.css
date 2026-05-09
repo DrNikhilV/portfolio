@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(var(--bg-color), 0.8);
+    background: rgba(var(--bg-rgb), 0.86);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
@@ -149,7 +149,7 @@
 }
 
 .hero-img {
-    max-width: 100%;
+    width: min(100%, 420px);
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
     object-fit: cover;
@@ -191,7 +191,7 @@
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 2rem;
 }
 
@@ -244,7 +244,7 @@
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: 2.5rem;
 }
 
@@ -441,7 +441,7 @@
 
 .hobbies-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 2rem;
 }
 
@@ -530,6 +530,7 @@
 .contact-item span {
     color: var(--text-muted);
     font-size: 0.9rem;
+    overflow-wrap: anywhere;
 }
 
 .social-links-large {

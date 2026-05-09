@@ -3,7 +3,7 @@
 - A professional, minimalist, and fully responsive personal portfolio website.
 - This project relies exclusively on pure HTML5, CSS3, and Vanilla JavaScript to deliver a smooth and optimized user experience.
 
-## ✨ Features
+## Features
 
 - **Zero Dependencies**: No Bootstrap, Tailwind, React, jQuery, or external libraries.
 - **Native Theming**: Built-in Dark/Light mode toggle with `localStorage` state persistence.
@@ -12,7 +12,7 @@
 - **Fully Responsive**: Fluid layouts utilizing CSS Grid and Flexbox for seamless adaptation across mobile, tablet, and desktop viewports.
 - **Interactive Components**: Features a custom-built, vanilla JS research publication carousel.
 
-## 📁 Project Structure
+## Project Structure
 
 The project emphasizes a highly organized, modular file structure:
 
@@ -32,7 +32,7 @@ The project emphasizes a highly organized, modular file structure:
     └── utils.js        # Minor dynamic utilities (e.g., footer year)
 ```
 
-## 🚀 How to Run
+## How to Run
 
 Because this project is built entirely with native web technologies and has no build tools or package managers required:
 
