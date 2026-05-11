@@ -74,9 +74,18 @@
     }
 
     .skills-grid,
-    .project-grid,
-    .hobbies-grid {
+    .project-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hobbies-row {
+        flex-direction: column;
+    }
+
+    .hobbies-row-top .hobby-card,
+    .hobbies-row-bottom .hobby-card {
+        max-width: 100%;
+        flex: 1 1 100%;
     }
 
     .left-btn {
@@ -94,6 +103,17 @@
     .footer-container {
         flex-direction: column;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .social-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -145,6 +165,5 @@
     .carousel-slide {
         padding: 2rem 1.25rem;
     }
-}
 }
 

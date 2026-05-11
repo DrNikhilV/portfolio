@@ -43,6 +43,5 @@ Because this project is built entirely with native web technologies and has no b
 2. Navigate to the project directory.
 3. Open `index.html` directly in any modern web browser.
 
-
 ---
 *Designed & Built by Nikhil V.*

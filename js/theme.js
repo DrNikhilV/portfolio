@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const brandLogo = document.getElementById('brand-logo');
     const favicon = document.getElementById('favicon');
 
-    // Check for saved user preference, if any, on load of the website
+    // Check for saved user preference
     const savedTheme = localStorage.getItem('theme') || 'light';
     setTheme(savedTheme);
 

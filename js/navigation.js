@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
             // Adjustment for sticky header
-            if (scrollY >= (sectionTop - 100)) {
+            if (window.scrollY >= (sectionTop - 100)) {
                 current = section.getAttribute('id');
             }
         });
